@@ -9,7 +9,7 @@ public class Application {
         long sum = 0;
 
         // 문자열 입력
-        System.out.print("input String : ");
+        System.out.println("덧셈할 문자열을 입력해 주세요");
         String input_string = Console.readLine(); // ex : "1,2:3"
 
         if (!input_string.isEmpty()) {
@@ -20,7 +20,7 @@ public class Application {
             }
         }
 
-        System.out.println("result = " + sum);
+        System.out.println("결과 : " + sum);
 
 
     }
